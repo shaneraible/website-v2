@@ -1,0 +1,25 @@
+html{
+    background-color: #cad2c5;
+    background-image: url("campus3abs.jpeg");
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+
+    overflow:auto;
+
+}
+
+body, html{
+    height:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width:100%;
+        
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
