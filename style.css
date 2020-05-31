@@ -64,15 +64,16 @@ h1 {
 .contain_section{
   position: absolute;
   width: 100%;
-
 }
 
 .contain_section_title{
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
+  position: absolute;
+  display:inline-block;
+  bottom:0;
+  top:0;
+  left:0;
   height:100vh;
   width:50%;
-  bottom:0;
 
 }
 
