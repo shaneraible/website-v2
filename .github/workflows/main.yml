@@ -20,7 +20,7 @@ jobs:
         run: echo Hello, world!
       
       - name: auth
-        run: echo ${{ secrets.NOT_SSH }} >> ~/.ssh/known_hosts
+        run: echo "${{ secrets.NOT_SSH }}" >> ~/.ssh/known_hosts
         
       - name: deploy
         run: |
