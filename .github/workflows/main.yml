@@ -25,5 +25,5 @@ jobs:
       - name: deploy
         run: |
           echo deploying to shaneraible.com
-          ssh ${{ USER.NOT_SSH }}@${{ secrets.server }}
+          ssh ${{ secrets.USER }}@${{ secrets.SERVER }}
           ls
