@@ -18,7 +18,12 @@ jobs:
 
       - name: Run a one-line script
         run: echo Hello, world!
-
+      
+      - name: auth
+        run: echo ${{ secrets.NOT_SSH }} >> ~/.ssh/known_hosts
+        
       - name: deploy
         run: |
-          deploying to shaneraible.com
+          echo deploying to shaneraible.com
+          ssh ${{ USER.NOT_SSH }}@${{ secrets.server }}
+          ls
