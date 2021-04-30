@@ -10,7 +10,7 @@ var TxtRotate = function(el, toRotate, period) {
 };
 
 TxtRotate.prototype.tick = function() {
-  var colors = ['#ed6a5a', '#f0a202', '#6cae75', '#fcca46', '#00ffff']
+  var colors = ['#ed6a5a', '#f0a202', '#6cae75', '#fcca46', '#00ffff', '#6cae75']
   var i = this.loopNum % this.toRotate.length;
   var fullTxt = this.toRotate[i];
 
